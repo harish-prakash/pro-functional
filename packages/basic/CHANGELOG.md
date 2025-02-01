@@ -1,5 +1,11 @@
 # @pro-functional/basic
 
+## 1.1.1
+
+### Patch Changes
+
+- 030deae: Re-publish package to include updated dist/
+
 ## 1.1.0
 
 ### Minor Changes
