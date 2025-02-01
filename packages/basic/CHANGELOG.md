@@ -1,5 +1,11 @@
 # @pro-functional/basic
 
+## 1.0.1
+
+### Patch Changes
+
+- 6058bbc: Add type declarations for @pro-functional/basic
+
 ## 1.0.0
 
 ### Major Changes
