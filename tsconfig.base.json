@@ -1,0 +1,10 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig.json",
+    "extends": [
+        "@tsconfig/node16/tsconfig.json",
+        "@tsconfig/strictest/tsconfig.json"
+    ],
+    "compilerOptions": {
+        "lib": ["DOM"]
+    }
+}

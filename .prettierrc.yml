@@ -1,0 +1,14 @@
+---
+trailingComma: es5
+tabWidth: 4
+semi: false
+singleQuote: true
+plugins:
+  - prettier-plugin-organize-imports
+proseWrap: always
+overrides:
+  - files:
+      - '*.yml'
+      - '*.yaml'
+    options:
+      tabWidth: 2
