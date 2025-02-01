@@ -9,7 +9,9 @@
         "url": "https://harish-prakash.github.io/"
     },
     "scripts": {
-        "build": "esbuild src/index.ts --bundle --outdir=dist --sourcemap --minify --tsconfig=tsconfig.build.json",
+        "build:cjs": "esbuild src/index.ts --bundle --outdir=dist/cjs --sourcemap --minify --tsconfig=tsconfig.build.json --format=cjs",
+        "build:esm": "esbuild src/index.ts --bundle --outdir=dist/esm --sourcemap --minify --tsconfig=tsconfig.build.json --format=esm",
+        "build": "yarn build:cjs && yarn build:esm",
         "clean": "rimraf ./dist"
     },
     "license": "MIT",
@@ -30,17 +32,17 @@
         "access": "public",
         "registry": "https://registry.npmjs.org/"
     },
-    "main": "./dist/src/index.ts",
-    "types": "./dist/src/index.d.ts",
+    "main": "./dist/cjs/index.js",
+    "types": "./dist/index.d.ts",
     "files": [
         "./dist"
     ],
     "exports": {
         ".": {
-            "node": "./dist/src/index.ts",
-            "types": "./dist/src/index.d.ts",
-            "import": "./dist/src/index.ts",
-            "default": "./dist/src/index.ts"
+            "node": "./dist/cjs/index.js",
+            "types": "./dist/index.d.ts",
+            "import": "./dist/esm/index.js",
+            "default": "./dist/cjs/index.js"
         }
     },
     "devDependencies": {
