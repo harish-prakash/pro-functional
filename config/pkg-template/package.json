@@ -13,7 +13,6 @@
         "clean": "rimraf ./dist"
     },
     "license": "MIT",
-    "type": "module",
     "description": "Tools to simplify pure functions",
     "keywords": [
         "functional",
