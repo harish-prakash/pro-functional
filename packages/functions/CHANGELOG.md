@@ -1,5 +1,13 @@
 # @pro-functional/functions
 
+## 0.1.2
+
+### Patch Changes
+
+- 00a166b: Declare `require` export instead of `node`
+- Updated dependencies [00a166b]
+    - @pro-functional/basic@2.0.2
+
 ## 0.1.1
 
 ### Patch Changes

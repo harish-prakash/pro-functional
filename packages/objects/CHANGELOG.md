@@ -1,5 +1,11 @@
 # @pro-functional/objects
 
+## 0.1.2
+
+### Patch Changes
+
+- 00a166b: Declare `require` export instead of `node`
+
 ## 0.1.1
 
 ### Patch Changes
