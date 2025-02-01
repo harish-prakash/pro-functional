@@ -12,7 +12,7 @@
         "email": "harish.email@icloud.com",
         "url": "https://harish-prakash.github.io/"
     },
-    "license": "© Harish Prakash, 2025.",
+    "license": "MIT",
     "type": "module",
     "description": "Tools to simplify pure functions",
     "keywords": [
