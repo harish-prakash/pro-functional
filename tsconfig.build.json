@@ -13,6 +13,9 @@
     },
     {
       "path": "./packages/functions/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/arrays/tsconfig.build.json"
     }
   ]
 }
