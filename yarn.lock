@@ -957,6 +957,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pro-functional/basic@workspace:packages/basic":
+  version: 0.0.0-use.local
+  resolution: "@pro-functional/basic@workspace:packages/basic"
+  dependencies:
+    esbuild: "npm:0.24.2"
+    rimraf: "npm:6.0.1"
+  languageName: unknown
+  linkType: soft
+
 "@pro-functional/root@workspace:.":
   version: 0.0.0-use.local
   resolution: "@pro-functional/root@workspace:."

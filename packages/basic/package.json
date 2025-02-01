@@ -1,0 +1,51 @@
+{
+    "$schema": "https://json.schemastore.org/package.json",
+    "name": "@pro-functional/basic",
+    "version": "0.0.1",
+    "author": {
+        "name": "Harish Prakash",
+        "email": "harish.email@icloud.com",
+        "url": "https://harish-prakash.github.io/"
+    },
+    "scripts": {
+        "build:cjs": "esbuild src/index.ts --bundle --outdir=dist/cjs --sourcemap --minify --tsconfig=tsconfig.build.json --format=cjs",
+        "build:esm": "esbuild src/index.ts --bundle --outdir=dist/esm --sourcemap --minify --tsconfig=tsconfig.build.json --format=esm",
+        "build": "yarn build:cjs && yarn build:esm",
+        "clean": "rimraf ./dist"
+    },
+    "license": "MIT",
+    "description": "Tools to simplify pure functions",
+    "keywords": [
+        "functional",
+        "programming",
+        "tools",
+        "utilities",
+        "pure functions"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harish-prakash/pro-functional.git",
+        "directory": "packages/basic"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
+    "main": "./dist/cjs/index.js",
+    "types": "./dist/index.d.ts",
+    "files": [
+        "./dist"
+    ],
+    "exports": {
+        ".": {
+            "node": "./dist/cjs/index.js",
+            "types": "./dist/index.d.ts",
+            "import": "./dist/esm/index.js",
+            "default": "./dist/cjs/index.js"
+        }
+    },
+    "devDependencies": {
+        "esbuild": "0.24.2",
+        "rimraf": "6.0.1"
+    }
+}
