@@ -1,5 +1,11 @@
 # @pro-functional/basic
 
+## 1.0.2
+
+### Patch Changes
+
+- 3803ce9: Fix type declaration config for primary `types` path
+
 ## 1.0.1
 
 ### Patch Changes
