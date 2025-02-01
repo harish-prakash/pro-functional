@@ -6,7 +6,7 @@
     ],
     "scripts": {
         "build!": "yarn workspaces foreach -Apt --no-private run build!",
-        "publish": "yarn build! && yarn npm publish"
+        "publish": "yarn build! && yarn workspaces foreach -At --no-private run publish"
     },
     "name": "@pro-functional/root",
     "version": "0.0.1",
