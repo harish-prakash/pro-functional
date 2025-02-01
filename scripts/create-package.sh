@@ -45,6 +45,9 @@ mv package.tmp.json package.json
 jq '.private = false' package.json > package.tmp.json
 mv package.tmp.json package.json
 
+jq --arg repoDir "packages/$pkgName" '.repository.directory = "\($repoDir)"' package.json > package.tmp.json
+mv package.tmp.json package.json
+
 cd "$rootDir"
 
 yarn prettier "$pkgPath" --write

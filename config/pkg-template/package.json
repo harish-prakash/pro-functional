@@ -20,7 +20,8 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/harish-prakash/pro-functional.git"
+        "url": "https://github.com/harish-prakash/pro-functional.git",
+        "directory": "config/pkg-template"
     },
     "publishConfig": {
         "access": "public",
