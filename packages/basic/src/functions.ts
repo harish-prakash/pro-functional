@@ -1,26 +1,21 @@
 import { isDefined } from './objects.js'
 
-export const callIfDefined =
+export const paramOptional =
     <P, R>(fnc: (params: P) => R) =>
-    (params?: P) =>
+    (params?: P | null) =>
         isDefined(params) ? fnc(params) : undefined
 
 interface ActionParams<MapperParam, Param, Resp> {
-    mapper: (param: MapperParam) => Param | null
+    mapper: (param: MapperParam) => Param | undefined
     handler: (param: Param) => Resp
     fallback: Resp
     input?: MapperParam | null
 }
 
-export const action = <M, P, R>({
+export const action = <MapperParam, Param, Resp>({
     mapper,
     handler,
     fallback,
     input,
-}: ActionParams<M, P, R>) => {
-    const params = isDefined(input) ? mapper(input) : null
-
-    const response = isDefined(params) ? handler(params) : fallback
-
-    return response
-}
+}: ActionParams<MapperParam, Param, Resp>) =>
+    paramOptional(handler)(paramOptional(mapper)(input)) || fallback
