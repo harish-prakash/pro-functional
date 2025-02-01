@@ -5,7 +5,8 @@
         "config/*"
     ],
     "scripts": {
-        "build!": "yarn workspaces foreach -Apt --no-private run build!"
+        "build!": "yarn workspaces foreach -Apt --no-private run build!",
+        "publish": "yarn build! && changeset publish"
     },
     "name": "@pro-functional/root",
     "version": "0.0.1",
