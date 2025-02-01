@@ -1,5 +1,13 @@
 # @pro-functional/basic
 
+## 2.0.0
+
+### Major Changes
+
+- 5081ba3: - Extract function utilities to @pro-functional/functions
+    - Extract object utilities to @pro-functional/objects
+    - Extract basic features to @pro-basic/objects
+
 ## 1.1.1
 
 ### Patch Changes
