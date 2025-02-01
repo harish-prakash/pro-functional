@@ -50,6 +50,9 @@ mv package.tmp.json package.json
 
 cd "$rootDir"
 
+jq --arg buildPath "./packages/${pkgName}/tsconfig.build.json" '.references += [{"path": "\($buildPath)"}]' tsconfig.build.json > tsconfig.build.tmp.json
+mv tsconfig.build.tmp.json tsconfig.build.json
+
 yarn prettier "$pkgPath" --write
 
 yarn install

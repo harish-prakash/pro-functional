@@ -9,7 +9,7 @@
         "url": "https://harish-prakash.github.io/"
     },
     "scripts": {
-        "build": "esbuild src/index.ts --bundle --outdir=dist --sourcemap --minify",
+        "build": "esbuild src/index.ts --bundle --outdir=dist --sourcemap --minify --tsconfig=tsconfig.build.json",
         "clean": "rimraf ./dist"
     },
     "license": "MIT",
