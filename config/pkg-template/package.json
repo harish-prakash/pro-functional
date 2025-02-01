@@ -41,7 +41,7 @@
     "exports": {
         ".": {
             "node": "./dist/cjs/index.js",
-            "types": "./dist/index.d.ts",
+            "types": "./dist/src/index.d.ts",
             "import": "./dist/esm/index.js",
             "default": "./dist/cjs/index.js"
         }

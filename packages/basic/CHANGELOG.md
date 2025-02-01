@@ -1,5 +1,11 @@
 # @pro-functional/basic
 
+## 0.1.2
+
+### Patch Changes
+
+- Fix declaration path in published package
+
 ## 0.1.1
 
 ### Patch Changes

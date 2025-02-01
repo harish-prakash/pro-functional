@@ -1,7 +1,7 @@
 {
     "$schema": "https://json.schemastore.org/package.json",
     "name": "@pro-functional/basic",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "author": {
         "name": "Harish Prakash",
         "email": "harish.email@icloud.com",
@@ -40,7 +40,7 @@
     "exports": {
         ".": {
             "node": "./dist/cjs/index.js",
-            "types": "./dist/index.d.ts",
+            "types": "./dist/src/index.d.ts",
             "import": "./dist/esm/index.js",
             "default": "./dist/cjs/index.js"
         }
