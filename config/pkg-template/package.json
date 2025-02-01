@@ -35,7 +35,7 @@
         "registry": "https://registry.npmjs.org/"
     },
     "main": "./dist/cjs/index.js",
-    "types": "./dist/index.d.ts",
+    "types": "./dist/src/index.d.ts",
     "files": [
         "./dist",
         "!**/tsconfig.build.tsbuildinfo"
