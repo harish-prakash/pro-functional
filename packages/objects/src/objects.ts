@@ -1,6 +1,3 @@
-export const isDefined = (value?: unknown) =>
-    !(typeof value === 'undefined' || value === null)
-
 export const isObject = (value?: unknown): value is Record<string, unknown> =>
     typeof value === 'object' && !!value
 

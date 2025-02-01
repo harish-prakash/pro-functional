@@ -617,9 +617,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pro-functional/basic@workspace:packages/basic":
+"@pro-functional/basic@workspace:*, @pro-functional/basic@workspace:packages/basic":
   version: 0.0.0-use.local
   resolution: "@pro-functional/basic@workspace:packages/basic"
+  dependencies:
+    esbuild: "npm:0.24.2"
+    rimraf: "npm:6.0.1"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"@pro-functional/functions@workspace:packages/functions":
+  version: 0.0.0-use.local
+  resolution: "@pro-functional/functions@workspace:packages/functions"
+  dependencies:
+    "@pro-functional/basic": "workspace:*"
+    esbuild: "npm:0.24.2"
+    rimraf: "npm:6.0.1"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
+"@pro-functional/objects@workspace:packages/objects":
+  version: 0.0.0-use.local
+  resolution: "@pro-functional/objects@workspace:packages/objects"
   dependencies:
     esbuild: "npm:0.24.2"
     rimraf: "npm:6.0.1"

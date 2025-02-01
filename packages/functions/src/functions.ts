@@ -1,4 +1,4 @@
-import { isDefined } from './objects.js'
+import { isDefined } from '@pro-functional/basic'
 
 export const paramOptional =
     <P, R>(fnc: (params: P) => R) =>
