@@ -1,5 +1,11 @@
 # @pro-functional/basic
 
+## 2.0.1
+
+### Patch Changes
+
+- d66db79: Simplify package publish with yarn tools
+
 ## 2.0.0
 
 ### Major Changes

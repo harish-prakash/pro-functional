@@ -1,5 +1,11 @@
 # @pro-functional/objects
 
+## 0.1.1
+
+### Patch Changes
+
+- d66db79: Simplify package publish with yarn tools
+
 ## 0.1.0
 
 ### Minor Changes
