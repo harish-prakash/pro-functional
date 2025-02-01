@@ -1,5 +1,11 @@
 # @pro-functional/basic
 
+## 1.0.0
+
+### Major Changes
+
+- e397ec7: Object and Function utils to help branching in pure-functions
+
 ## 0.1.2
 
 ### Patch Changes
