@@ -52,5 +52,7 @@ cd "$rootDir"
 
 yarn prettier "$pkgPath" --write
 
+yarn install
+
 print "✅ package created: $pkgPath"
 
