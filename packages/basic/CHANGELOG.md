@@ -1,5 +1,11 @@
 # @pro-functional/basic
 
+## 1.1.0
+
+### Minor Changes
+
+- f1e1f80: feat(basic): Object validation helpers
+
 ## 1.0.2
 
 ### Patch Changes
