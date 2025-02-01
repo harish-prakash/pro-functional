@@ -21,6 +21,10 @@
         "utilities",
         "pure functions"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harish-prakash/pro-functional.git"
+    },
     "packageManager": "yarn@4.6.0",
     "devDependencies": {
         "@eslint/js": "9.19.0",

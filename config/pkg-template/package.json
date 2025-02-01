@@ -18,6 +18,14 @@
         "utilities",
         "pure functions"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/harish-prakash/pro-functional.git"
+    },
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
     "main": "./dist/src/index.ts",
     "types": "./dist/src/index.d.ts",
     "files": [
