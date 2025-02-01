@@ -1,9 +1,10 @@
 {
-  "$schema": "https://json.schemastore.org/tsconfig.json",
-  "extends": "./tsconfig.base.json",
-  "references": [
-    {
-      "path": "./packages/basic/tsconfig.build.json"
-    }
-  ]
+    "$schema": "https://json.schemastore.org/tsconfig.json",
+    "extends": "./tsconfig.base.json",
+    "compilerOptions": { "noEmit": true },
+    "references": [
+        {
+            "path": "./packages/basic/tsconfig.build.json"
+        }
+    ]
 }
