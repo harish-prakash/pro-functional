@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.2.0...@pro-functional/objects@0.3.0) (2025-02-02)
+
+### Features
+
+- **objects:** Add enum utilities to map and resolve
+  ([1d0b5fd](https://github.com/harish-prakash/pro-functional/commit/1d0b5fd8514c9d3659e01ce59aec5a5d42d987e5))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.2.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.1.3...@pro-functional/objects@0.2.0) (2025-02-02)
 
 ### Features
