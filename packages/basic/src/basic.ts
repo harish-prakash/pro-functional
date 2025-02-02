@@ -1,2 +1,2 @@
-export const isDefined = (value?: unknown) =>
+export const isDefined = <T>(value?: T | null) =>
     !(typeof value === 'undefined' || value === null)
