@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.2.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.1.0...@pro-functional/basic@2.2.0) (2025-02-02)
+
+### Features
+
+- **\*-packages:** Add placeholder readme files
+  ([975deb2](https://github.com/harish-prakash/pro-functional/commit/975deb27d8b3e3faaa20ddec29b45eb59d4fc628))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.1.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.0.3...@pro-functional/basic@2.1.0) (2025-02-02)
 
 ### Bug Fixes
