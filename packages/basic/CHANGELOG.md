@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.0.3...@pro-functional/basic@2.1.0) (2025-02-02)
+
+### Bug Fixes
+
+- **basic:** Use generics to properly resolve isDefined result
+  ([4fe99e1](https://github.com/harish-prakash/pro-functional/commit/4fe99e1f245ef608ea11dcacd3e1b1a0b24a4b22))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [2.0.3](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.0.2...@pro-functional/basic@2.0.3) (2025-02-02)
 
 **Note:** Version bump only for package @pro-functional/basic
