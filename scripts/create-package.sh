@@ -39,6 +39,8 @@ echo -n "console.debug('hello-world')" > "src/$pkgName.ts"
 
 echo -n "export * from './${pkgName}'" > "src/index.ts"
 
+echo -n "# ${pkgName}" > "README.md"
+
 jq --arg pkgName "$pkgName" '.name = "@pro-functional/\($pkgName)"' package.json > package.tmp.json
 mv package.tmp.json package.json
 
