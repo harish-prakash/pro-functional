@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.2](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.3.0...@pro-functional/objects@0.3.2) (2025-02-02)
+
+### Bug Fixes
+
+- **objects:** Manually bump version to fix previous build
+  ([624e9d5](https://github.com/harish-prakash/pro-functional/commit/624e9d5e8662fc3a9dd688da1a75420d1481b378))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.3.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.2.0...@pro-functional/objects@0.3.0) (2025-02-02)
 
 ### Features
