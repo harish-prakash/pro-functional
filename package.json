@@ -6,7 +6,7 @@
     ],
     "scripts": {
         "build!": "yarn workspaces foreach -Apt --no-private run build!",
-        "publish": "lerna publish --no-private"
+        "publish": "yarn build! && lerna publish --no-private"
     },
     "name": "@pro-functional/root",
     "version": "0.0.1",
