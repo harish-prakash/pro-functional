@@ -14,7 +14,6 @@
         "build:types": "tsc --project tsconfig.build.json",
         "build": "yarn build:cjs && yarn build:esm && yarn build:types",
         "build!": "yarn clean && yarn build",
-        "publish": "yarn npm publish --tolerate-republish",
         "clean": "rimraf ./dist"
     },
     "license": "MIT",
