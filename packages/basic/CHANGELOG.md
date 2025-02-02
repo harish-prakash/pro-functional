@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.3.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.2.0...@pro-functional/basic@2.3.0) (2025-02-02)
+
+### Features
+
+- **basic:** Evaluate NaN for value test
+  ([a286551](https://github.com/harish-prakash/pro-functional/commit/a286551f6563d621732bb6c93378444cdb7c91c1))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.2.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.1.0...@pro-functional/basic@2.2.0) (2025-02-02)
 
 ### Features
