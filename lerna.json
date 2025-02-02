@@ -4,5 +4,6 @@
     "npmClient": "yarn",
     "command": {
         "version": { "conventionalCommits": true, "allowBranch": ["main"] }
-    }
+    },
+    "ignoreChanges": ["**/README.md"]
 }

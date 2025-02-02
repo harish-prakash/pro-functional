@@ -12,28 +12,28 @@ yarn add --exact @pro-functional/basic
 check allowing values like `0` and `""` (empty string) to correctly evaluate as
 _valid_. A `NaN` number is also marked as invalid.
 
-    ```ts
-    isDefined(undefined)
-    // false
+```ts
+isDefined(undefined)
+// false
 
-    isDefined(null)
-    // false
+isDefined(null)
+// false
 
-    isDefined(+'bad number')
-    // false
+isDefined(+'bad number')
+// false
 
-    isDefined({})
-    // true
+isDefined({})
+// true
 
-    isDefined('')
-    // true
+isDefined('')
+// true
 
-    isDefined(0)
-    // true
+isDefined(0)
+// true
 
-    isDefined('text')
-    // true
+isDefined('text')
+// true
 
-    isDefined({ type: 'kilogram', value: 5 })
-    // true
-    ```
+isDefined({ type: 'kilogram', value: 5 })
+// true
+```
