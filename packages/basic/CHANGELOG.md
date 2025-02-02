@@ -1,3 +1,12 @@
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+## [2.0.3](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.0.2...@pro-functional/basic@2.0.3) (2025-02-02)
+
+**Note:** Version bump only for package @pro-functional/basic
+
 # @pro-functional/basic
 
 ## 2.0.2
