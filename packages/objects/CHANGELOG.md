@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.4.0...@pro-functional/objects@0.5.0) (2025-02-03)
+
+### Features
+
+- Do not bundle external packages
+  ([c8a2513](https://github.com/harish-prakash/pro-functional/commit/c8a2513a0319e4529f5eb00558543e3b572c2087))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.4.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.3.5...@pro-functional/objects@0.4.0) (2025-02-03)
 
 ### Features
