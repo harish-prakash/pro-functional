@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.3.5...@pro-functional/objects@0.4.0) (2025-02-03)
+
+### Features
+
+- Add enum resolver to the `objects` package
+  ([b385782](https://github.com/harish-prakash/pro-functional/commit/b38578287739b3caaea81c05115ba68cbc670ed4))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [0.3.5](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.3.4...@pro-functional/objects@0.3.5) (2025-02-02)
 
 **Note:** Version bump only for package @pro-functional/objects
