@@ -53,3 +53,25 @@ isObjectWithProps({ name: 'bob' }, 'name', 'id')
 isObjectWithProps({ name: 'bob', id: '007', uid: 'ga98as7fuhk' }, 'name', 'id')
 // true
 ```
+
+**makeEnumResolver** Create a resolver for an Enum allowing you to map a text
+back to the enum. The fallback allows a guaranteed response.
+
+```ts
+enum Colors {
+    Green = 'green',
+    Blue = 'blue',
+    Invalid = 'invalid',
+}
+
+const resolveColor = makeEnumResolver(Colors, Colors.Invalid)
+
+resolveColor('green')
+// Colors.Green
+
+resolveColor('blue')
+// Colors.Blue
+
+resolveColor('purple')
+// Colors.Invalid
+```
