@@ -9,8 +9,9 @@
         "url": "https://harish-prakash.github.io/"
     },
     "scripts": {
-        "build:cjs": "esbuild src/index.ts --bundle --outdir=dist/cjs --sourcemap --minify --tsconfig=tsconfig.build.json --format=cjs",
-        "build:esm": "esbuild src/index.ts --bundle --outdir=dist/esm --sourcemap --minify --tsconfig=tsconfig.build.json --format=esm",
+        "build:base": "esbuild src/**/*.ts --sourcemap --minify --tsconfig=tsconfig.build.json",
+        "build:cjs": "yarn build:base --outdir=dist/cjs --format=cjs",
+        "build:esm": "yarn build:base --outdir=dist/esm --format=esm",
         "build:types": "tsc --project tsconfig.build.json",
         "build": "yarn build:cjs && yarn build:esm && yarn build:types",
         "build!": "yarn clean && yarn build",
