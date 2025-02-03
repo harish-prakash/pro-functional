@@ -52,6 +52,18 @@ isObjectWithProps({ name: 'bob' }, 'name', 'id')
 
 isObjectWithProps({ name: 'bob', id: '007', uid: 'ga98as7fuhk' }, 'name', 'id')
 // true
+
+interface User {
+    name: string
+    id: string
+}
+
+const maybeUser = { name: 'bob', id: '007', uid: 'ga98as7fuhk' }
+
+const user: User | null = isObjectWithProps(maybeUser, 'name', 'id')
+    ? maybeUser
+    : null
+// ✅ assignment is type-correct
 ```
 
 **makeEnumResolver** Create a resolver for an Enum allowing you to map a text
