@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.5.0...@pro-functional/objects@0.6.0) (2025-02-04)
+
+### Features
+
+- Add nx and task-caching
+  ([1c85202](https://github.com/harish-prakash/pro-functional/commit/1c85202ab84efecd9b9434f071d4cf74eec71080))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.5.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.4.0...@pro-functional/objects@0.5.0) (2025-02-03)
 
 ### Features
