@@ -7,7 +7,7 @@
     "scripts": {
         "clean": "yarn workspaces foreach -Apt --no-private run clean",
         "build": "lerna run build --no-private",
-        "publish": "lerna publish --no-private"
+        "release": "yarn build && lerna publish --no-private"
     },
     "name": "@pro-functional/root",
     "version": "0.0.1",
@@ -31,7 +31,7 @@
         "url": "git+https://github.com/harish-prakash/pro-functional.git"
     },
     "packageManager": "yarn@4.6.0",
-    "dependencies": {
+    "devDependencies": {
         "@eslint/js": "9.19.0",
         "@tsconfig/node16": "16.1.3",
         "@tsconfig/strictest": "2.0.5",
