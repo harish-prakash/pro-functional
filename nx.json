@@ -1,0 +1,10 @@
+{
+    "$schema": "https://raw.githubusercontent.com/nrwl/nx/refs/heads/master/packages/nx/schemas/nx-schema.json",
+    "targetDefaults": {
+        "build": {
+            "cache": true,
+            "dependsOn": ["^build"],
+            "outputs": ["{projectRoot}/dist"]
+        }
+    }
+}
