@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.7.0...@pro-functional/objects@0.8.0) (2025-08-31)
+
+### Features
+
+- **objects:** Add `matchesList` matcher for `checkObject`
+  ([35c2548](https://github.com/harish-prakash/pro-functional/commit/35c25482b45e28cddb72901b93c82891f8678413))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.7.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.6.0...@pro-functional/objects@0.7.0) (2025-08-31)
 
 ### Features
