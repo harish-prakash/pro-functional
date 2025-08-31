@@ -24,3 +24,8 @@ export const matchesString = (value: unknown): value is string =>
 export const matchesEnum =
     (enumerated: Record<string, string>) => (value: unknown) =>
         matchesString(value) && Object.keys(enumerated).includes(value)
+
+export const matchesList =
+    <T>(matchFunc: MatchFunc<T>) =>
+    (value: unknown) =>
+        Array.isArray(value) && value.every(matchFunc)
