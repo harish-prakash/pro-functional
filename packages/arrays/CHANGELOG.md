@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.5.0...@pro-functional/arrays@0.6.0) (2025-08-31)
+
+### Features
+
+- **arrays:** itemToProp to map objects to property values
+  ([5119b3d](https://github.com/harish-prakash/pro-functional/commit/5119b3da83a18378d76bc832c15ce52b73f1afc4))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.5.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.4.0...@pro-functional/arrays@0.5.0) (2025-02-04)
 
 ### Features
