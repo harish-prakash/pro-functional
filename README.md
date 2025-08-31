@@ -1,3 +1,10 @@
+## Suggested Conventions
+
+### Flee from `if` - `else` branching like a plague
+
+This will probably be the most controversial convention. Branching is the
+foundation of computers since the 1960's
+
 ## Philosophy
 
 There is no such thing as a "correct" programming paradigm. Every known paradigm
@@ -15,4 +22,4 @@ maintainable.
 
 Writing pure-functions have their own pitfalls, especially with industry
 standard practices like fail-fast. Some of these arise due to miseducation that
-is blindly passed down
+is blindly passed down.
