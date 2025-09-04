@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.7.0...@pro-functional/arrays@0.8.0) (2025-09-04)
+
+### Features
+
+- **#number:** Add 'getNumber' to work on a variety of situations
+  ([9620b82](https://github.com/harish-prakash/pro-functional/commit/9620b82df84b84064e856ded0a754732ccda9623))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.7.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.6.0...@pro-functional/arrays@0.7.0) (2025-09-04)
 
 ### Features
