@@ -9,3 +9,11 @@ export const isDefined = <T>(value?: T | null): value is NonNullable<T> => {
 
     return !isUndefined
 }
+
+export const getNumber = (
+    mayBeNumber?: number | string | null,
+    fallback = 0
+) =>
+    mayBeNumber === undefined || mayBeNumber === null || isNaN(+mayBeNumber)
+        ? fallback
+        : +mayBeNumber
