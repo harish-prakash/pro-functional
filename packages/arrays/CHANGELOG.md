@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.6.0...@pro-functional/arrays@0.7.0) (2025-09-04)
+
+### Features
+
+- **arrays:** Add sort-orderByOrdinal
+  ([ed85daf](https://github.com/harish-prakash/pro-functional/commit/ed85daf2bda51c2155a746fd476f4c58974c773a))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.6.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.5.0...@pro-functional/arrays@0.6.0) (2025-08-31)
 
 ### Features
