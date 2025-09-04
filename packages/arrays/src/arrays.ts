@@ -6,3 +6,10 @@ export const itemToProp =
     <T extends object, K extends keyof T>(prop: K) =>
     (object: T): T[K] =>
         object[prop]
+
+interface WithOrdinal {
+    ordinal: number
+}
+
+export const orderByOrdinals = (left: WithOrdinal, right: WithOrdinal) =>
+    left.ordinal - right.ordinal
