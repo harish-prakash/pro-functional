@@ -6,11 +6,5 @@ const exitForEnv = (env: string) =>
 const exitWhenEnvNotFound = (value: string) =>
     process.env[value] ? undefined : exitForEnv(value)
 
-interface ExitWhenEnvIsNotSetupFunc {
-    (params: string | string[]): void
-}
-
-export const exitWhenEnvIsNotSetup: ExitWhenEnvIsNotSetupFunc = (envs) =>
-    typeof envs === 'string'
-        ? exitWhenEnvNotFound(envs)
-        : envs.forEach(exitWhenEnvNotFound)
+export const exitWhenEnvIsNotSetup = (...envs: string[]) =>
+    envs.forEach(exitWhenEnvNotFound)
