@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.1](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.8.0...@pro-functional/arrays@0.8.1) (2025-09-07)
+
+**Note:** Version bump only for package @pro-functional/arrays
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.8.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/arrays@0.7.0...@pro-functional/arrays@0.8.0) (2025-09-04)
 
 ### Features

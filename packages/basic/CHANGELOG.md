@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.6.0...@pro-functional/basic@2.7.0) (2025-09-07)
+
+### Features
+
+- **environment:** Add environment tools
+  ([03f606f](https://github.com/harish-prakash/pro-functional/commit/03f606fc967a672f6322347b758ebc3464d38978))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.6.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.5.0...@pro-functional/basic@2.6.0) (2025-09-04)
 
 ### Features
