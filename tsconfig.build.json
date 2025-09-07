@@ -16,6 +16,9 @@
     },
     {
       "path": "./packages/arrays/tsconfig.build.json"
+    },
+    {
+      "path": "./packages/environment/tsconfig.build.json"
     }
   ]
 }

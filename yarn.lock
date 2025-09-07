@@ -979,6 +979,18 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@pro-functional/environment@workspace:packages/environment":
+  version: 0.0.0-use.local
+  resolution: "@pro-functional/environment@workspace:packages/environment"
+  dependencies:
+    "@pro-functional/basic": "workspace:*"
+    "@types/node": "npm:24.3.1"
+    esbuild: "npm:0.24.2"
+    rimraf: "npm:6.0.1"
+    typescript: "npm:5.7.3"
+  languageName: unknown
+  linkType: soft
+
 "@pro-functional/functions@workspace:packages/functions":
   version: 0.0.0-use.local
   resolution: "@pro-functional/functions@workspace:packages/functions"
@@ -1146,6 +1158,15 @@ __metadata:
   version: 1.2.5
   resolution: "@types/minimist@npm:1.2.5"
   checksum: 10c0/3f791258d8e99a1d7d0ca2bda1ca6ea5a94e5e7b8fc6cde84dd79b0552da6fb68ade750f0e17718f6587783c24254bbca0357648dd59dc3812c150305cabdc46
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:24.3.1":
+  version: 24.3.1
+  resolution: "@types/node@npm:24.3.1"
+  dependencies:
+    undici-types: "npm:~7.10.0"
+  checksum: 10c0/99b86fc32294fcd61136ca1f771026443a1e370e9f284f75e243b29299dd878e18c193deba1ce29a374932db4e30eb80826e1049b9aad02d36f5c30b94b6f928
   languageName: node
   linkType: hard
 
@@ -5892,6 +5913,13 @@ __metadata:
   bin:
     uglifyjs: bin/uglifyjs
   checksum: 10c0/83b0a90eca35f778e07cad9622b80c448b6aad457c9ff8e568afed978212b42930a95f9e1be943a1ffa4258a3340fbb899f41461131c05bb1d0a9c303aed8479
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~7.10.0":
+  version: 7.10.0
+  resolution: "undici-types@npm:7.10.0"
+  checksum: 10c0/8b00ce50e235fe3cc601307f148b5e8fb427092ee3b23e8118ec0a5d7f68eca8cee468c8fc9f15cbb2cf2a3797945ebceb1cbd9732306a1d00e0a9b6afa0f635
   languageName: node
   linkType: hard
 

@@ -17,3 +17,7 @@ export const getNumber = (
     mayBeNumber === undefined || mayBeNumber === null || isNaN(+mayBeNumber)
         ? fallback
         : +mayBeNumber
+
+export const throwError = (message: string) => {
+    throw new Error(message)
+}
