@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.9.1...@pro-functional/objects@0.10.0) (2025-09-08)
+
+### Features
+
+- **object:** CheckObject to return isMatch func instead
+  ([8e283b1](https://github.com/harish-prakash/pro-functional/commit/8e283b18ad26b598a0441b558ab4551aa9bb53a6))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [0.9.1](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.9.0...@pro-functional/objects@0.9.1) (2025-09-08)
 
 **Note:** Version bump only for package @pro-functional/objects
