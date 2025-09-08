@@ -21,6 +21,14 @@ export const checkObject = <T extends object>(value: T) => {
 export const matchesString = (value: unknown): value is string =>
     typeof value === 'string'
 
+export const matchesNumber = (value: unknown): value is number =>
+    typeof value === 'number'
+
+export const matchesOneOf = <K extends string>(
+    value: unknown,
+    sample: K[]
+): value is K => matchesString(value) && sample.some((key) => value === key)
+
 export const matchesEnum =
     (enumerated: Record<string, string>) => (value: unknown) =>
         matchesString(value) && Object.keys(enumerated).includes(value)
