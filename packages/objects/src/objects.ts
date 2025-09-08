@@ -9,13 +9,32 @@ export const isObjectWithProps = <K extends string>(
 
 type MatchFunc<T> = (param: T) => boolean
 
-export const checkObject = <T extends object>(value: T) => {
+interface MatchWithPropFunc<T extends object> {
+    <K extends keyof T>(
+        key: K,
+        match: MatchFunc<T[K]>
+    ): CheckObjectIntermediate<T>
+}
+
+interface CheckObjectIntermediate<T extends object> {
+    isMatch: boolean
+    object: T
+    withProp: MatchWithPropFunc<T>
+}
+
+export const checkObject = <T extends object>(
+    value: T
+): CheckObjectIntermediate<T> => {
     const withProp = <K extends keyof T>(key: K, matchFunc: MatchFunc<T[K]>) =>
-        next(matchFunc(value[key]))
+        next(matchFunc(value[key]), value)
 
-    const next = (result: boolean) => ({ result, withProp })
+    const next = (isMatch: boolean, object: T): CheckObjectIntermediate<T> => ({
+        isMatch,
+        object,
+        withProp,
+    })
 
-    return next(!!value)
+    return next(!!value, value)
 }
 
 export const matchesString = (value: unknown): value is string =>
