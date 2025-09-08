@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.8.0...@pro-functional/objects@0.9.0) (2025-09-08)
+
+### Features
+
+- Include more matchers
+  ([5dfe900](https://github.com/harish-prakash/pro-functional/commit/5dfe90033d429457f3a18fcaba7b5e62ef992ef5))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.8.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.7.0...@pro-functional/objects@0.8.0) (2025-08-31)
 
 ### Features
