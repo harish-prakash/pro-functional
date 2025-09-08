@@ -17,7 +17,7 @@ interface MatchWithPropFunc<T extends object> {
 }
 
 interface CheckObjectIntermediate<T extends object> {
-    isMatch: boolean
+    isMatch: () => boolean
     object: T
     withProp: MatchWithPropFunc<T>
 }
@@ -28,8 +28,8 @@ export const checkObject = <T extends object>(
     const withProp = <K extends keyof T>(key: K, matchFunc: MatchFunc<T[K]>) =>
         next(matchFunc(value[key]), value)
 
-    const next = (isMatch: boolean, object: T): CheckObjectIntermediate<T> => ({
-        isMatch,
+    const next = (result: boolean, object: T): CheckObjectIntermediate<T> => ({
+        isMatch: () => result,
         object,
         withProp,
     })
