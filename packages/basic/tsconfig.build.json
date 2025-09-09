@@ -5,6 +5,7 @@
     "compilerOptions": {
         "composite": true,
         "emitDeclarationOnly": true,
-        "outDir": "./dist"
+        "isolatedModules": false,
+        "outFile": "./dist/types/index.d.ts"
     }
 }
