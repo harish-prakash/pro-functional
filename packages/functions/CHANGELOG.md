@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.5](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/functions@0.5.4...@pro-functional/functions@0.5.5) (2025-09-09)
+
+### Bug Fixes
+
+- **functions:** Remove fake function
+  ([90107df](https://github.com/harish-prakash/pro-functional/commit/90107df2a02773f124713971b6c9fed4b02686b2))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [0.5.4](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/functions@0.5.4-0...@pro-functional/functions@0.5.4) (2025-09-09)
 
 ### Bug Fixes
