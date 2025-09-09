@@ -9,8 +9,7 @@
         }
     },
     "release": {
-        "releaseTagPattern": "{projectName}@{version}",
-        "releaseTagPatternStrictPreid": true
+        "releaseTagPattern": "{projectName}@{version}"
     },
     "plugins": [{ "plugin": "@nx/js/typescript" }]
 }
