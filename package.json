@@ -7,7 +7,7 @@
     "scripts": {
         "clean": "yarn workspaces foreach -Apt --no-private run clean",
         "build": "nx affected --targets=build --exclude=tag:private",
-        "release": "nx release --preid=beta"
+        "release": "yarn build && lerna publish --no-private"
     },
     "name": "@pro-functional/root",
     "version": "0.0.1",
