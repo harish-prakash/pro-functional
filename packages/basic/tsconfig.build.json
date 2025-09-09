@@ -6,6 +6,6 @@
         "composite": true,
         "emitDeclarationOnly": true,
         "isolatedModules": false,
-        "outFile": "./dist/types/index.d.ts"
+        "outFile": "./dist/types/index.d.cts"
     }
 }
