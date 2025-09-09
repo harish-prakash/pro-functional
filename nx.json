@@ -4,6 +4,7 @@
         "build": {
             "cache": true,
             "dependsOn": ["^build"],
+            "inputs": ["{projectRoot}/**/*.ts"],
             "outputs": ["{projectRoot}/dist"]
         }
     }
