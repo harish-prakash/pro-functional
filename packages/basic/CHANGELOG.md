@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.8](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@0.1.7...@pro-functional/basic@0.1.8) (2025-09-09)
+
+**Note:** Version bump only for package @pro-functional/basic
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [2.7.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@2.6.0...@pro-functional/basic@2.7.0) (2025-09-07)
 
 ### Features
