@@ -4,7 +4,10 @@
         "build": {
             "cache": true,
             "dependsOn": ["^build"],
-            "inputs": ["{workspaceRoot}/**/*.ts"],
+            "inputs": [
+                "{workspaceRoot}/**/*.ts",
+                "{workspaceRoot}/tsconfig.*.json"
+            ],
             "outputs": ["{workspaceRoot}/dist"]
         }
     },
