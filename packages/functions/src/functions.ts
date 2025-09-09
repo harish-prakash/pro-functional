@@ -19,5 +19,3 @@ export const action = <MapperParam, Param, Resp>({
     input,
 }: ActionParams<MapperParam, Param, Resp>) =>
     paramOptional(handler)(paramOptional(mapper)(input)) || fallback
-
-export const fakeAction = () => 'mock action'
