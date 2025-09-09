@@ -4,8 +4,8 @@
         "build": {
             "cache": true,
             "dependsOn": ["^build"],
-            "inputs": ["{projectRoot}/**/*.ts"],
-            "outputs": ["{projectRoot}/dist"]
+            "inputs": ["{workspaceRoot}/**/*.ts"],
+            "outputs": ["{workspaceRoot}/dist"]
         }
     }
 }
