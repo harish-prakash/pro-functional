@@ -9,7 +9,9 @@
         }
     },
     "release": {
-        "releaseTagPattern": "{projectName}@{version}"
+        "projectsRelationship": "independent",
+        "releaseTagPattern": "{projectName}@{version}",
+        "releaseTagPatternStrictPreid": true
     },
     "plugins": [{ "plugin": "@nx/js/typescript" }]
 }
