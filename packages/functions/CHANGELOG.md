@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.4](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/functions@0.5.4-0...@pro-functional/functions@0.5.4) (2025-09-09)
+
+### Bug Fixes
+
+- **functions:** Add mock action to be removed
+  ([47a054c](https://github.com/harish-prakash/pro-functional/commit/47a054cfca2dcd1c027685d6de7576b7914e6c8b))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [0.5.2](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/functions@0.5.1...@pro-functional/functions@0.5.2) (2025-09-07)
 
 **Note:** Version bump only for package @pro-functional/functions
