@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.1.7...@pro-functional/objects@0.2.0) (2025-09-10)
+
+### Bug Fixes
+
+- **\*build:** Prevent incorrect type mapping
+  ([8b3feba](https://github.com/harish-prakash/pro-functional/commit/8b3feba4f582ddd9de29b91a040abb613fa3b045))
+
+### Features
+
+- Revert type changes
+  ([3a9bb6c](https://github.com/harish-prakash/pro-functional/commit/3a9bb6c156551f149da974e296bdc8be6dcc39dc))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [0.1.7](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/objects@0.1.7-0...@pro-functional/objects@0.1.7) (2025-09-09)
 
 **Note:** Version bump only for package @pro-functional/objects
