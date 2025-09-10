@@ -42,10 +42,18 @@
     ],
     "exports": {
         ".": {
-            "require": "./dist/cjs/index.cjs",
-            "import": "./dist/esm/index.mjs",
-            "default": "./dist/esm/index.mjs",
-            "types": "./dist/types/src/index.d.ts"
+            "require": {
+                "default": "./dist/cjs/index.cjs",
+                "types": "./dist/types/src/index.d.ts"
+            },
+            "import": {
+                "default": "./dist/esm/index.mjs",
+                "types": "./dist/types/src/index.d.ts"
+            },
+            "default": {
+                "default": "./dist/esm/index.mjs",
+                "types": "./dist/types/src/index.d.ts"
+            }
         }
     },
     "devDependencies": {
