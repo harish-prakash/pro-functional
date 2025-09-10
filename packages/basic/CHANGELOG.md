@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@0.2.0...@pro-functional/basic@0.2.1) (2025-09-10)
+
+### Bug Fixes
+
+- Add types to avoid fallback
+  ([7b263f3](https://github.com/harish-prakash/pro-functional/commit/7b263f35a65c2d1d0b1d19a18e6e20a86dcf6a90))
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 # [0.2.0](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/basic@0.1.12...@pro-functional/basic@0.2.0) (2025-09-10)
 
 ### Bug Fixes
