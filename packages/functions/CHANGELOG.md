@@ -3,6 +3,15 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.2](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/functions@0.6.1...@pro-functional/functions@0.6.2) (2025-09-10)
+
+**Note:** Version bump only for package @pro-functional/functions
+
+# Change Log
+
+All notable changes to this project will be documented in this file. See
+[Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
 ## [0.6.1](https://github.com/harish-prakash/pro-functional/compare/@pro-functional/functions@0.6.0...@pro-functional/functions@0.6.1) (2025-09-10)
 
 ### Bug Fixes
