@@ -56,3 +56,5 @@ export const matchesList =
     <T>(matchFunc: MatchFunc<T>) =>
     (value: unknown) =>
         Array.isArray(value) && value.every(matchFunc)
+
+export const matchesValue = <T>(value: unknown, sample: T) => value === sample
