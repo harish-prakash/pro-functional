@@ -6,7 +6,7 @@
             "dependsOn": ["^build"],
             "inputs": [
                 "{workspaceRoot}/**/*.ts",
-                "{workspaceRoot}/tsconfig.*.json"
+                "{workspaceRoot}/tsconfig.types.json"
             ],
             "outputs": ["{workspaceRoot}/dist"]
         }

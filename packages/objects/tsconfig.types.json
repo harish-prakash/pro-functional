@@ -4,7 +4,7 @@
     "compilerOptions": {
         "module": "node16",
         "moduleResolution": "node16",
-        "outDir": "./dist/cjs",
+        "outDir": "./dist/types",
         "emitDeclarationOnly": true
     }
 }

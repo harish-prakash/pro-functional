@@ -2,9 +2,9 @@
     "$schema": "https://json.schemastore.org/tsconfig.json",
     "extends": ["./tsconfig.build.json"],
     "compilerOptions": {
-        "module": "nodenext",
-        "moduleResolution": "nodenext",
-        "outDir": "./dist/cjs",
+        "module": "node16",
+        "moduleResolution": "node16",
+        "outDir": "./dist/types",
         "emitDeclarationOnly": true
     }
 }

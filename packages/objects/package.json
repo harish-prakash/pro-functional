@@ -11,10 +11,8 @@
         "build:base": "esbuild src/index.ts --sourcemap --bundle --packages=external --minify --tsconfig=tsconfig.build.json",
         "build:cjs": "yarn build:base --outfile=dist/cjs/index.cjs --format=cjs",
         "build:esm": "yarn build:base --outfile=dist/esm/index.mjs --format=esm",
-        "build:cjs-types": "tsc --project tsconfig.cjs.json",
-        "build:fix-esm": "find dist/esm -name '*.d.ts' -exec sh -c 'mv $0 ${0%.d.ts}.d.mts' {} \\;",
-        "build:esm-types": "tsc --project tsconfig.esm.json && yarn build:fix-esm",
-        "build": "yarn build:cjs && yarn build:cjs-types && yarn build:esm && yarn build:esm-types",
+        "build:types": "tsc --project tsconfig.types.json",
+        "build": "yarn build:cjs && yarn build:esm && yarn build:types",
         "clean": "rimraf ./dist"
     },
     "license": "MIT",
@@ -37,25 +35,17 @@
     },
     "main": "./dist/cjs/index.cjs",
     "module": "./dist/esm/index.mjs",
-    "types": "./dist/cjs/src/index.d.ts",
+    "types": "./dist/types/src/index.d.ts",
     "files": [
         "./dist",
         "!**/tsconfig.build.tsbuildinfo"
     ],
     "exports": {
         ".": {
-            "require": {
-                "types": "./dist/cjs/src/index.d.ts",
-                "default": "./dist/cjs/index.cjs"
-            },
-            "import": {
-                "types": "./dist/esm/src/index.d.mts",
-                "default": "./dist/esm/index.mjs"
-            },
-            "default": {
-                "types": "./dist/esm/src/index.d.ts",
-                "default": "./dist/esm/index.mjs"
-            }
+            "require": "./dist/cjs/index.cjs",
+            "import": "./dist/esm/index.mjs",
+            "default": "./dist/esm/index.mjs",
+            "types": "./dist/types/src/index.d.ts"
         }
     },
     "devDependencies": {
